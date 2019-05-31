@@ -1,0 +1,313 @@
+{
+	"info": {
+		"_postman_id": "60e6621a-b0b8-4977-9aa0-12766e4504b4",
+		"name": "java-spring-2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "crud1",
+			"item": [
+				{
+					"name": "http://localhost:8082/other",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/recurso",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"recurso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8082/recurso",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/recurso",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"recurso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8082/other",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/recurso",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"recurso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8082/other",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "crud2",
+			"item": [
+				{
+					"name": "http://localhost:8082/recurso/create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/recurso/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"recurso",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8082/recurso/read",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/recurso/read",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"recurso",
+								"read"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8082/recurso/update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/recurso/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"recurso",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8082/recurso/delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/recurso/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"recurso",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "crud3",
+			"item": [
+				{
+					"name": "http://localhost:8082/other",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/other",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"other"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8082/other",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/other",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"other"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8082/other",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/other",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"other"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8082/other",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8082/other",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"other"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
