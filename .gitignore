@@ -1,19 +1,37 @@
-*.sw?
-.#*
-*#
-*~
-.classpath
-.project
-.settings
-bin
-build
-target
-dependency-reduced-pom.xml
-*.sublime-*
-/scratch
+# Gradle
 .gradle
-README.html
+build/
+out
+
+# maven
+dependency-reduced-pom.xml
+target
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Vscode
+.vscode
+
+# Eclipse
+.classpath
+.settings
+.project
+bin/
+
+
+# IntelliJ
 .idea
 *.iml
-out
-*.log*
+*.ipr
+*.iws
+
+# Misc
+*.
+*.lck
+
+# binarys
+*.class
+
+# logs
+*.log
